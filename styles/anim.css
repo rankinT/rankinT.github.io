@@ -1,0 +1,151 @@
+.intro-container.index, .portfolio-intro, .about-intro, .about-container {
+  -webkit-animation: forwards 1s ease 1 bodyFade;
+          animation: forwards 1s ease 1 bodyFade;
+}
+@-webkit-keyframes bodyFade {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes bodyFade {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+  z-index: 0;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.portfolio-item-container.varg, .portfolio-item-container.soundscape {
+  -webkit-animation: forwards 1s ease 1 portItemFade;
+          animation: forwards 1s ease 1 portItemFade;
+}
+@-webkit-keyframes portItemFade {
+  from {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes portItemFade {
+  from {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+#scroll-link {
+  text-decoration: none;
+  color: black;
+  transition: background-color 1s;
+}
+#scroll-link :hover {
+  background-color: rgb(255, 227, 175);
+}
+
+#scroll-prompt {
+  z-index: 1;
+  position: fixed;
+  bottom: 10%;
+  left: 0;
+  rotate: 90deg;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 6px #666666;
+  border-top-right-radius: 30px;
+  padding: 0.5em;
+}
+#scroll-prompt p {
+  font-weight: bold;
+  margin: 1em;
+  display: block;
+}
+#scroll-prompt .scroll-prompt.end {
+  display: none;
+}
+#scroll-prompt .line {
+  bottom: 10px;
+  background-color: black;
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  -webkit-animation: 4s linear infinite running scrollDown;
+          animation: 4s linear infinite running scrollDown;
+}
+@-webkit-keyframes scrollDown {
+  0% {
+    opacity: 0;
+    transform: translatex(-20px) scaleX(0.3);
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    transform: translatex(80px) scaleX(0.3);
+  }
+}
+@keyframes scrollDown {
+  0% {
+    opacity: 0;
+    transform: translatex(-20px) scaleX(0.3);
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    transform: translatex(80px) scaleX(0.3);
+  }
+}
+
+#index-spacer {
+  -webkit-animation: forwards 0.6s linear spacerIn;
+          animation: forwards 0.6s linear spacerIn;
+}
+@-webkit-keyframes spacerIn {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+@keyframes spacerIn {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}/*# sourceMappingURL=anim.css.map */

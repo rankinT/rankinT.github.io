@@ -1,0 +1,112 @@
+// INDEX BODY FADE IN w/ lil slide
+.intro-container.index, .portfolio-intro, .about-intro, .about-container {
+    animation: forwards 1s ease 1 bodyFade;
+    //overflow-y: hidden;
+    @keyframes bodyFade {
+        from{
+            opacity: 0;
+            transform: translateX(-10px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px) ;
+        }
+    }
+  }
+
+  // reveal animations
+// https://alvarotrigo.com/blog/css-animations-scroll/
+.reveal{
+    position:relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+    z-index: 0; //bottom layer cheese
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .portfolio-item-container.varg, .portfolio-item-container.soundscape{
+    animation: forwards 1s ease 1 portItemFade;
+    @keyframes portItemFade {
+        from{
+            opacity: 0;
+            transform: translateY(150px);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0px) ;
+        }
+    }
+  }
+
+// SCROLL PROMPT 
+#scroll-link{
+    text-decoration: none;
+    color: black;
+    // background-color: rgba(#ffffff, $alpha: 0.7);
+    transition: background-color 1s;
+    :hover{
+        background-color: rgb(255, 227, 175);
+    }
+}
+#scroll-prompt{
+    z-index: 1;
+    position: fixed;
+    bottom: 10%;
+    left: 0;
+    rotate: 90deg;
+    background-color: rgba(#ffffff, $alpha: 0.7);
+    box-shadow: 2px 2px 6px #666666;;
+    border-top-right-radius: 30px;
+    padding: 0.5em;
+    
+    p{
+        font-weight: bold;
+        margin: 1em;
+        display: block;
+    }
+    .scroll-prompt.end{
+        display: none;
+    }
+    
+    .line{
+        bottom: 10px;
+        background-color: black;
+        width: 50px;
+        height: 3px;
+        position: absolute;
+        animation: 4s linear infinite running scrollDown;
+    }
+    @keyframes scrollDown {
+        0% {
+            opacity: 0;
+            transform: translatex(-20px) scaleX(0.3);
+        }
+        50%{
+            opacity: 0.7;
+        }
+        100%{
+            opacity: 0;
+            transform: translatex(80px) scaleX(0.3); //multi right to left
+        }
+    }
+}
+
+// LINE SPACER FADE EXPAND
+#index-spacer{
+    animation: forwards 0.6s linear spacerIn;
+    @keyframes spacerIn {
+        from {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+        to{
+            opacity: 1;
+            transform: scaleX(1); //multi right to left
+            
+        }
+    }
+}
