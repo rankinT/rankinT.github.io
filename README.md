@@ -2,6 +2,8 @@
 
 I'm planning for this website to be a more personalized portfolio wesbite. It will be a place for me to showcase work that I've done, while also serving as a chance to explore web styling and working with HTML CSS. This website will get updated designs in the future, beyond the class, to possibly to look more professional or technically skilled with animations. In any case, my future website would reference this legacy version as a display of how my skills and styling improve over time. Until I get to that point, I will be experimenting with things like JS and animations on my site.
 
+<a href='https://rankint.github.io/'>Take a look!</a>
+
 --------------
 
 ## Redesigns of Redesigns... and more Redesigns
@@ -29,10 +31,11 @@ When I first saw the color palette, I got the idea to have some kind of swirly c
 
 Once I had some ideas of what I wanted to include in my website, it was time to really think about the actual layout and how the website would look so I could get an idea of what elements need to be coded in HTML. The first layout has an icon nav bar with the curve accent at the bottom. The main content would fill the middle of the page with a larger image on the opposite side of the nav bar to balance out the page.
 
-<img src="./imgs/sketches/pal1.png" width="600">
+
 
 Despite trying to balance out the view with an image, it still didn't feel right. I toned everything down to a more minimal look so I could have more control over the balance of the page, using the content that I would add later.
 
+<img src="./imgs/sketches/pal1.png" width="300">
 <img src="./imgs/sketches/pal2.png" width="600">
 
 -----------------------
@@ -64,4 +67,4 @@ I really liked the loosey goosey version, but it did not fit my intended theme o
 ------------
 
 ## Reflection
-asdasdasda
+asdasdasd

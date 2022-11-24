@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('/styles/anim.css');
+
+
+// MERRIWEATHER
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 
 :root {
     --bg-main: #ffffff;
@@ -33,7 +37,7 @@
     overflow-x: auto;
     overflow-y: scroll;
     min-height: 100vh;
-    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
     background-color: var(--bg-main);
     color: var(--text-dark);
     //background-image: url(/imgs/icons/star-blue.png );
@@ -115,11 +119,17 @@
     .intro-welcome{
         width: 600px;
         margin: 1.2em;
+        line-height: 1.5em;
         //width: 30%;
         h1{
             font-size: 48px;
             margin-bottom: 20px;
         }
+        strong {
+          color: rgba($color: #f37a00, $alpha: 1.0);
+          // box-shadow: var(--container-shadow);
+        }
+        
         .spacer{
             width: auto;
             height: 4px;
@@ -144,18 +154,6 @@
     }
     
   }
-  section.dnid-intro{
-    //display: flex;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    .intro-content{
-        text-align: center;
-        padding: 1em;
-    }
-  }
-
 
 //   //////////////////////////////////////
 //   ///////// PORTFOLIO PAGE ///////////
@@ -239,39 +237,115 @@ section.about-intro{
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 1.5em;
     // background-color: #0FFF8F;
     background-color: #f5f7f8;
-  }
-
-  section.about-intro.edu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;    
-    //background-color: #dfffd3;
-    background-color: #d3ffee;
-    // color: #0832bb;
-    padding: 2em 0;
-  }
-  .about-container.edu{
-    table{
-        margin: 2em;
+    tr p{
+      margin-top: 0.3em;
+      margin-bottom: 1.2em;
+    }
+    td{
+      max-width: 800px;
     }
   }
 
-  section.about-intro.exp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;    
-    //background-color: #dfffd3;
-    background-color: #f2ffd3;
-    // color: #0832bb;
-    padding: 2em 0;
+/////////////////////////////////
+// /////////CONTACT PAGE //////////
+section.contact-intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;    
+  // background-color: #f6e2ff;
+  background-color: #d3ffee;
+  // color: #0832bb;
+  padding: 2em 0;
+  text-align: center;
+  h1{
+      font-size: 28px;
+  }
 }
 
-.about-container.exp{
-    table{
-        margin: 2em;
+.contact-container{
+  margin-bottom: 0;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: #0FFF8F;
+  background-color: #f5f7f8;
+  padding-bottom: 4em;;
+  p{
+    margin-bottom: 1em;
+  }
+  
+  
+}
+
+.contact-items{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+  .splitter{
+    background-color: var(--text-dark);
+    width: 2px;
+    height: 120px;
+    transform: translateY(20px);
+  }
+  .item{
+    height: 100px;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    span{
+      font-weight: 900;
     }
+    i:not(#hash){
+      margin: 1em;
+    }
+    a{
+      color: var(--text-dark);
+      border-radius: 20px;
+    }
+    /**
+    a:hover{
+      color: rgba($color: #ff8902, $alpha: 1.0);
+      box-shadow: var(--container-shadow);
+    }
+    **/
+    #hash{
+      margin: 3px;
+    }
+}
+.contact-container-desc{
+  display: block; 
+}
+
+.contact-container.extra{
+  margin: 1em;
+  margin-top: 0;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  // background-color: #0FFF8F;
+  background-color: #f5f7f8;
+  padding-bottom: 4em;;
+  tr p{
+    margin-bottom: 1em;
+  }
+
+
+  display: none;
+}
+
+.linkedin{
+  display: none;
 }
