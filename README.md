@@ -6,7 +6,7 @@ I'm planning for this website to be a more personalized portfolio wesbite. It wi
 
 --------------
 
-## Redesigns of Redesigns... and more Redesigns
+## Redesigns of Redesigns... and more Redesigns <br/> 
 
 ### Initial Night Colors
 
@@ -20,7 +20,7 @@ After a couple of days, I was introduced to <a href="https://coolors.co/fff6d8-f
 
 <img src="./imgs/webs/coolors.png" height="400">
 
-### Its Kind of Curvy
+### It's Kind of Curvy
 
 When I first saw the color palette, I got the idea to have some kind of swirly curve accent on my page. I wasn't sure of where I wanted the accent, I just knew that I wanted something that non-sharp to frame my website. In the past, I heard that soft edges feel more welcoming and friendly. (Kiki vs Boba shapes)
 
