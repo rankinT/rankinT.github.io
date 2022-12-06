@@ -134,6 +134,7 @@
 // LINE SPACER FADE EXPAND
 #index-spacer{
     animation: forwards 0.8s linear spacerIn;
+    // animation: 0.8s  spacerIn infinite;
     @keyframes spacerIn {
         from {
             opacity: 0;
