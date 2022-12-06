@@ -308,6 +308,8 @@ section.contact-intro{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+    
+    
     span{
       font-weight: 900;
     }
@@ -317,6 +319,9 @@ section.contact-intro{
     a{
       color: var(--text-dark);
       border-radius: 20px;
+      :hover{
+        color: red;
+      }
     }
     /**
     a:hover{

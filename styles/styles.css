@@ -270,6 +270,9 @@ section.contact-intro h1 {
   color: var(--text-dark);
   border-radius: 20px;
 }
+.item a :hover {
+  color: red;
+}
 .item #hash {
   margin: 3px;
 }
