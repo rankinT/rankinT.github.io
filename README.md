@@ -66,5 +66,13 @@ I really liked the loosey goosey version, but it did not fit my intended theme o
 
 ------------
 
-## Reflection
-asdasdasd
+## Final Reflection
+My intended vision for the website was to be a professional portfolio where I could have a public place to store examples of my work, while also learning new skills like website animations. From the very beginning, I knew I also wanted to document the entire process along the way, going from the general conception to the final implementations, because I loved the UX aspect of presenting the process of how designs and ideas come to life.
+
+The most notable points in the process were during the implementation stage where I struggled with using HTML CSS to make the website work exactly how I wanted. I wanted a horizontally scrolling website with the colored curve moving through the entire page but I never got it to work because the curve would always get displaced or distorted. I got frustrated and ditched the original design. Luckily, I ended up with a reasonable compromise by replacing the curve with a gradient accent. 
+
+My new design choices put a big focus on balance so the viewer would mostly look at the center of the screen on each page. The portfolio section makes use of the flex display and what I called visual non-rhythm with how the designs are similar but sizes for each item are different depending on the emphasis I want to put on each item (visual argument and website being the most emphasized).
+
+I also went with as little noise as possible for a minimal and clean professional look. But as much as I like the final design, I think I went overboard on minimalism and empty space. It’s almost too minimal. I feel like the website itself lacks character (like a blank template feeling) so if I was going to redesign the website (again…) I would incorporate more graphical textures (paper grains, abstract color accents/shapes, and more personal pictures). 
+
+Overall, I think I will continue to use the visual design concepts I learned this semester. Balance and visual rhythm are definitely my favorites because they subtly direct the intuitive nuances of how people engage with designs. I also think my favorite project was ironically the front-end web development  project despite all the trouble it gave me. It was fun to incorporate different design concepts, and it was very rewarding to struggle so much and then arrive at a finished product that I could confidently present to other people. (also very rewarding that Ben said he took inspiration from my site) After all is said and done, I think the most important thing I’ll be taking away from this class is that design and digital media takes planning and persistence to get the results you want. I don’t know how much I’ll be revisiting the projects I made this semester because I want to go on to make new things, but I do like the idea of leaving them in their current state so I can look back on my work and see how my work has changed over time.
