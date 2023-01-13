@@ -1,78 +1,69 @@
-# Personal Portfolio Website
+#Usability Testing Introduction
 
-I'm planning for this website to be a more personalized portfolio wesbite. It will be a place for me to showcase work that I've done, while also serving as a chance to explore web styling and working with HTML CSS. This website will get updated designs in the future, beyond the class, to possibly to look more professional or technically skilled with animations. In any case, my future website would reference this legacy version as a display of how my skills and styling improve over time. Until I get to that point, I will be experimenting with things like JS and animations on my site.
+Why not use code to help your students introduce themselves? It's an easy way for you to introduce your students to a little bit of computer science and build their coding literacy.
 
-<a href='https://rankint.github.io/'>Take a look!</a>
+Students work through the prompts in the index.html code to construct their own web page that exlains who they are and where they are going. I ask that my students actually present their page to the rest of the class. But before we do so--and even while the presentations are going on--I give students time to work together to debug their projects. 
 
---------------
+This template also allows the user to mix and match div. blocks should students wish to further customize their work. It's a great introduction to coding that will allow them to use our other tools found: [HERE](https://github.com/pitt-fuego)
 
-## Redesigns of Redesigns... and more Redesigns <br/> 
+    
+## Get started! 
 
-### Initial Night Colors
+1. Go to the Usability-Studies-Introduction repository: [HERE](https://github.com/sjquigley/Usability-Testing-Introduction) 
 
-I began with a super abstract idea of how I wanted my website to look. In fact, the idea was so abstract that it would be more accurate to say that I was thinking of how I wanted the website to <em>feel</em>. I liked the idea of a main 'night mode' with the moon being incorporated into the main look of the website, and the possibility of switching to a 'day mode' with the sun coming up to illuminate the page. The dark color palette would also be referencing the infamous black/blue (or white/gold) dress as a form of switching from day/night modes.
+2. Click "Code" then "Download ZIP" to your local computer. 
 
-<img src="./imgs/sketches/colors.png" height="400">
+3. Find this folder in your downloads. Move this folder to a secure place. You will return to this folder to manage your scripts and other assets like images, pdfs, etcetera. 
 
-### A New Day with New Colors
+4. Download and/or open a text editor like [Visual Studio Code](https://code.visualstudio.com/download). 
 
-After a couple of days, I was introduced to <a href="https://coolors.co/fff6d8-ff8811-f4d06f-9dd9d2-392f5a">coolors.co</a> which generates color palettes. I shuffled dozens of palettes until I landed on this one that really caight my attention. I felt that it fit with a light mode theme, so at this point I decided to use a light 'day mode' as the main theme instead of a dark one. 
+5. Use the text editor to open the style.css and index.html documents from your project folder.  
 
-<img src="./imgs/webs/coolors.png" height="400">
+6. Start working with code by reading through the index.html where you'll find instructions on how to build your own web text! 
 
-### It's Kind of Curvy
+7. Once you have modified and added your files to your project file, you will want to publish to the web. GitHub provides a good solution for "free." Create a GitHub account, then create a new repository for this webtext. Click  "uploading an existing file," (push) your files into this repository. You'll need ALL of your assets to make your webtext function properly. Upload assets, then hit "Commit changes." 
 
-When I first saw the color palette, I got the idea to have some kind of swirly curve accent on my page. I wasn't sure of where I wanted the accent, I just knew that I wanted something that non-sharp to frame my website. In the past, I heard that soft edges feel more welcoming and friendly. (Kiki vs Boba shapes)
+8. Now go to your repository "settings." Scroll down to "GitHub Pages" and change the setting from "none" to "main." Hit "Save"
 
-<img src="./imgs/sketches/bottom.png">
-<img src="./imgs/sketches/c1.png">
+9. This will provide you with a published GitHub URL.
 
-### Sketching Layouts 
-
-Once I had some ideas of what I wanted to include in my website, it was time to really think about the actual layout and how the website would look so I could get an idea of what elements need to be coded in HTML. The first layout has an icon nav bar with the curve accent at the bottom. The main content would fill the middle of the page with a larger image on the opposite side of the nav bar to balance out the page.
-
+10. Test the URL in a browser. Magic, no? Actually, it's computer science.  
+ 
 
 
-Despite trying to balance out the view with an image, it still didn't feel right. I toned everything down to a more minimal look so I could have more control over the balance of the page, using the content that I would add later.
-
-<img src="./imgs/sketches/pal1.png" width="300">
-<img src="./imgs/sketches/pal2.png" width="600">
-
------------------------
+Check out our other cool coding tools [HERE](https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/)
 
 
-## Implementing the Ideas
+Watch our [instructional video](https://youtu.be/cJiYas7B9Us)
 
-### HTML CSS: Headaches and Constant Stress
 
-To place the accents on the page, I used <a href="https://www.getpaint.net/">Paint.NET</a> to design the PNG images and then tried to add them as  &lt;img&gt; elements and as background images to &lt;div&gt; elements. For some reason, the page layout would never workout and I didn't know how to get the accent to look good across different pages (and long pages since the accent is at the bottom). It was so frustrating that I completely ditched the curve accent.
+## Text Editor Optimization
 
-<img src="./imgs/webs/web1.png" height="400">
+Setting up Visual Studio Code for Windows and CodePad for Chromebooks (Our recommended code editors)
 
-### Getting Loosey Goosey
+### Visual Studio Code (Mac)
 
-I was so annoyed by the issues I had in the previous version that I restarted my entire design. In this version, I was just cold coding my page, letting any idea that popped up get implemented directly onto the page. There was no planning that went into the design. This gave me a chance have fun again and be free to explore styling possibilities. 
+1. Download "**[Visual Studio Code](https://code.visualstudio.com/download)**"
+1. Add HTML Preview - from the dropdown menu, select **View>Extension.**
+1. In the search bar type "**Live Preview**."
+1. In the right-had corner, select the "**show preview**" button to see a.
+1. Adjust text wrapping - from the dropdown menu, select **View>Word Wrap** (this will force lines of code to conform to your viewer tab.)
 
-<img src="./imgs/webs/web2.png" height="400">
+### Visual Studio Code (Windows)
 
-### A Clean Start
+1. Download "**[Visual Studio Code](https://code.visualstudio.com/download)**"
+1. Add HTML Preview - from the dropdown menu, select **View>Extension.**
+1. In the search bar type "**Live Preview**."
+1. In the right-had corner, select the "**show preview**" button to see a live version of your code.
+1. Adjust text wrapping - from the dropdown menu, select **View>Word Wrap** (this will force lines of code to conform to your viewer tab.)
 
-I really liked the loosey goosey version, but it did not fit my intended theme of being a professional website. I reset everything but kept the gradient color accent. I reigned it back in with a minimalist look so the page would be cleaner and more concise. From this point, I had the style down to something I really loved, so I shifted my focus to learning how to add animations to really take advantage of it being a digital presentation of myself.
+### Code Pad (Chromebook)
 
-<img src="./imgs/webs/web3.png" height="400">
+1. Download "**[Code Pad Text Editor](https://chrome.google.com/webstore/detail/code-pad-text-editor/adaepfiocmagdimjecpifghcgfjlfmkh?hl=en-GB)**" from Chrome Web Store.
+1. From the dropdown menu, select **Editor>IDE Preferences**
+1. Toggle "**Word wrap limit**" to the middle value (this will force lines of code to conform to your viewer tab.)<p>&nbsp;</p>
 
-<img src="./imgs/gifs/infade.gif" width='600'>
-<img src="./imgs/gifs/portf.gif" width='600'>
 
-------------
 
-## Final Reflection
-My intended vision for the website was to be a professional portfolio where I could have a public place to store examples of my work, while also learning new skills like website animations. From the very beginning, I knew I also wanted to document the entire process along the way, going from the general conception to the final implementations, because I loved the UX aspect of presenting the process of how designs and ideas come to life.
 
-The most notable points in the process were during the implementation stage where I struggled with using HTML CSS to make the website work exactly how I wanted. I wanted a horizontally scrolling website with the colored curve moving through the entire page but I never got it to work because the curve would always get displaced or distorted. I got frustrated and ditched the original design. Luckily, I ended up with a reasonable compromise by replacing the curve with a gradient accent. 
 
-My new design choices put a big focus on balance so the viewer would mostly look at the center of the screen on each page. The portfolio section makes use of the flex display and what I called visual non-rhythm with how the designs are similar but sizes for each item are different depending on the emphasis I want to put on each item (visual argument and website being the most emphasized).
-
-I also went with as little noise as possible for a minimal and clean professional look. But as much as I like the final design, I think I went overboard on minimalism and empty space. It’s almost too minimal. I feel like the website itself lacks character (like a blank template feeling) so if I was going to redesign the website (again…) I would incorporate more graphical textures (paper grains, abstract color accents/shapes, and more personal pictures). 
-
-Overall, I think I will continue to use the visual design concepts I learned this semester. Balance and visual rhythm are definitely my favorites because they subtly direct the intuitive nuances of how people engage with designs. I also think my favorite project was ironically the front-end web development  project despite all the trouble it gave me. It was fun to incorporate different design concepts, and it was very rewarding to struggle so much and then arrive at a finished product that I could confidently present to other people. (also very rewarding that Ben said he took inspiration from my site) After all is said and done, I think the most important thing I’ll be taking away from this class is that design and digital media takes planning and persistence to get the results you want. I don’t know how much I’ll be revisiting the projects I made this semester because I want to go on to make new things, but I do like the idea of leaving them in their current state so I can look back on my work and see how my work has changed over time.
