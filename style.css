@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  /* font-family: 'Merriweather', serif; */
+  background-color: #ffffff;
+  color: #14121b;
 }
 
 .hero-image {
   /* - HERO -
 This code controls your "hero image." You will need to change hero.jpg to match your asset*/
   
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 3, 36, 0.65)), url("imgs/room.gif");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -16,6 +21,26 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   background-size: cover;
   position: relative;      
 }
+
+.end-screen{
+  background-image: linear-gradient(rgba(13, 7, 48, 0.35), rgba(0, 0, 0, 0.7)), url("imgs/room.gif");
+  height: 100%;
+}
+
+.end-text{
+  text-align: center;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  color: white;
+  font-size: 250%;
+  transform: translateX(-50%);
+  font-family: 'Merriweather', serif;
+
+  font-size: 0.67em;
+  font-weight: bold;
+}
+
 
 /* Places text in the middle of the image */
 
@@ -27,8 +52,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   transform: translate(-50%, -50%);
   color: white;
   font-size: 250%;
-
-
+  font-family: 'Merriweather', serif;
 }
 
 .hero-text h2 {   /* This section adds the text stylings for your hero block */
@@ -41,11 +65,24 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
     font-weight: bold;
 }
 
+.hero-text h1{
+  text-shadow: 5px 4px #000bac;
+}
+
+
+
+#tako{
+  display: block;
+  position:absolute;
+  height: 125px;
+  transform: translateX(-220px) translateY(-220px);
+}
+
 /*  - PARALLAX - 
 This code controls that cool parallax image and scrolling effect. Change the image "feet4.jpg" below to match your asset.*/
 /*You can always add more parllax assets on your web document, just follow the directions at the bottom of the index.html.*/
 .parallax-1 { 
-  background-image: url("fuego.jpg");
+  background-image: url("imgs/tako.gif");
 
   /* Set a specific height */
   height: 500px; 
