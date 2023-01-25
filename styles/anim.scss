@@ -49,6 +49,26 @@
         }
     }
   }
+  // CONTACT EXTRA ANIM
+  .contact-items .item a{
+    animation: infinite 5s ease-in-out jumpy;
+    //overflow-y: hidden;
+    @keyframes jumpy {
+        0%{
+            opacity: 1;
+            transform: scale(1);
+        }
+        50%{
+            opacity: 1;
+            transform: scale(1.2);
+        }
+        100%{
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+  }
+
 
   // reveal animations
 // https://alvarotrigo.com/blog/css-animations-scroll/
@@ -130,6 +150,7 @@
         }
     }
 }
+
 
 // LINE SPACER FADE EXPAND
 #index-spacer{

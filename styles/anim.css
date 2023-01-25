@@ -89,6 +89,39 @@
   }
 }
 
+.contact-items .item a {
+  -webkit-animation: infinite 5s ease-in-out jumpy;
+          animation: infinite 5s ease-in-out jumpy;
+}
+@-webkit-keyframes jumpy {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes jumpy {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .reveal {
   position: relative;
   transform: translateY(150px);

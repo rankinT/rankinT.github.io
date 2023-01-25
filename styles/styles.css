@@ -23,6 +23,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -89,19 +90,28 @@ section.intro-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
-  background-color: var(--bg-grey);
-  padding: 2em 0;
+  margin: 0;
+  padding: 17% 0;
   text-align: center;
 }
 section.intro-container .intro-welcome {
-  width: 600px;
+  width: 700px;
   margin: 1.2em;
   line-height: 1.5em;
 }
 section.intro-container .intro-welcome h1 {
   font-size: 48px;
   margin-bottom: 20px;
+}
+section.intro-container .intro-welcome a {
+  text-decoration: none;
+}
+section.intro-container .intro-welcome a :hover {
+  color: #068ddb;
+  text-decoration: underline;
+}
+section.intro-container .intro-welcome a :visited, section.intro-container .intro-welcome a :active {
+  text-decoration: none;
 }
 section.intro-container .intro-welcome strong {
   color: #f37a00;
@@ -117,20 +127,12 @@ section.intro-container .intro-welcome p {
   font-weight: 500;
   font-size: 20px;
 }
-section.intro-container .intro-me img {
-  width: 300px;
-  background-color: #cacaca;
-  padding: 1.2em;
-  margin: 1.2em;
-  border-radius: 20px;
-  box-shadow: var(--container-shadow);
-}
 
-section.portfolio-intro {
+.portfolio-intro {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
+  margin: 0;
   background-color: #fff0d3;
   padding: 2em 0;
   text-align: center;
@@ -141,25 +143,26 @@ section.portfolio-intro {
   margin-top: 1em;
 }
 
-section.portfolio-container {
-  margin: 1em;
+.portfolio-container {
+  margin: 0;
+  background-color: #fff0d3;
   padding: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-section.portfolio-container .portfolio-item-container {
+.portfolio-container .portfolio-item-container {
   background-color: #ececec;
   padding: 1.2em;
   margin: 1.2em;
   border-radius: 20px;
   box-shadow: var(--container-shadow);
 }
-section.portfolio-container .portfolio-item-container img {
+.portfolio-container .portfolio-item-container img {
   width: 500px;
 }
-section.portfolio-container .portfolio-item-container p {
+.portfolio-container .portfolio-item-container p {
   margin-bottom: 1em;
 }
 
@@ -218,6 +221,19 @@ section.contact-intro h1 {
   font-size: 28px;
 }
 
+.contact-intro.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #d3ffee;
+  padding: 2em 0;
+  text-align: center;
+}
+.contact-intro.foot h1 {
+  font-size: 28px;
+}
+
 .contact-container {
   margin-bottom: 0;
   padding: 1em;
@@ -246,7 +262,7 @@ section.contact-intro h1 {
   transform: translateY(20px);
 }
 
-.item {
+.contact-items .item {
   height: 100px;
   margin: 1em;
   padding: 1em;
@@ -260,20 +276,26 @@ section.contact-intro h1 {
   }
   **/
 }
-.item span {
+.contact-items .item span {
   font-weight: 900;
 }
-.item i:not(#hash) {
+.contact-items .item i:not(#hash) {
   margin: 1em;
 }
-.item a {
+.contact-items .item i:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+.contact-items .item a {
   color: var(--text-dark);
   border-radius: 20px;
 }
-.item a :hover {
-  color: red;
+.contact-items .item a :hover {
+  color: #00a365;
+  width: 3em;
+  transition: 0.5s;
 }
-.item #hash {
+.contact-items .item #hash {
   margin: 3px;
 }
 

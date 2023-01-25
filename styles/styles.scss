@@ -31,6 +31,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; //prevents funky padding stretch
+    scroll-behavior: smooth;
   }
   
   body {
@@ -117,18 +118,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%; 
-    background-color: var(--bg-grey);
-    padding: 2em 0;
+    margin: 0;
+    padding: 17% 0;
     text-align: center;
+    // background-image: url(/imgs/bd.png);
     .intro-welcome{
-        width: 600px;
+        width: 700px;
         margin: 1.2em;
         line-height: 1.5em;
         //width: 30%;
         h1{
             font-size: 48px;
             margin-bottom: 20px;
+        }
+        a{
+          text-decoration: none;
+          
+          :hover{
+            color: rgba($color: #068ddb, $alpha: 1.0);
+            text-decoration: underline;
+          }
+          :visited,:active{
+            text-decoration: none;
+          }
         }
         strong {
           color: rgba($color: #f37a00, $alpha: 1.0);
@@ -147,28 +159,18 @@
             font-size: 20px;
         }
     }
-    .intro-me{
-        img{
-            width: 300px;
-            background-color: rgba($color: #cacaca3a, $alpha: 1);
-            padding: 1.2em;
-            margin: 1.2em;
-            border-radius: 20px;
-            box-shadow: var(--container-shadow);
-        }
-    }
-    
   }
+
+  
 
 //   //////////////////////////////////////
 //   ///////// PORTFOLIO PAGE ///////////
 
-
-  section.portfolio-intro{
+  .portfolio-intro{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;    
+    margin: 0;   
     //background-color: var(--bg-grey);
     background-color: #fff0d3;
     padding: 2em 0;
@@ -181,9 +183,10 @@
     margin-top: 1em;
   }
 
-  section.portfolio-container{
+  .portfolio-container{
     //width: 100%; //overflowsss
-    margin: 1em;
+    margin: 0;
+    background-color: #fff0d3;
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -271,6 +274,21 @@ section.contact-intro{
   }
 }
 
+.contact-intro.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;    
+  // background-color: #f6e2ff;
+  background-color: #d3ffee;
+  // color: #0832bb;
+  padding: 2em 0;
+  text-align: center;
+  h1{
+      font-size: 28px;
+  }
+}
+
 .contact-container{
   margin-bottom: 0;
   padding: 1em;
@@ -301,7 +319,7 @@ section.contact-intro{
     height: 120px;
     transform: translateY(20px);
   }
-  .item{
+  .contact-items .item{
     height: 100px;
     margin: 1em;
     padding: 1em;
@@ -316,11 +334,17 @@ section.contact-intro{
     i:not(#hash){
       margin: 1em;
     }
+    i:hover{
+      transform: scale(1.3);
+      transition: 0.5s;
+    }
     a{
       color: var(--text-dark);
       border-radius: 20px;
       :hover{
-        color: red;
+        color: #00a365;
+        width: 3em;
+        transition: 0.5s;
       }
     }
     /**
