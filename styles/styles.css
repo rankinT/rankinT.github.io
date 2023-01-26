@@ -138,19 +138,39 @@ section.intro-container .intro-welcome p {
   text-align: center;
 }
 
-.portfolio-intro.cs {
-  background-color: #fff0d3;
-  margin-top: 1em;
+.portfolio-intro-desc .btn {
+  background-color: rgb(255, 120, 30);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  margin: 1em;
+  cursor: pointer;
+  font-size: 20px;
+}
+.portfolio-intro-desc .btn:hover {
+  background-color: rgb(146, 63, 7);
 }
 
 .portfolio-container {
   margin: 0;
   background-color: #fff0d3;
+}
+.portfolio-container .portfolio-walkthrough {
+  position: absolute;
+  text-align: left;
+  right: 30%;
+  top: 150%;
+}
+.portfolio-container .portfolio-walkthrough h1 {
+  font-size: 30px;
+}
+.portfolio-container .portfolio-content {
   padding: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
 .portfolio-container .portfolio-item-container {
   background-color: #ececec;
@@ -160,7 +180,11 @@ section.intro-container .intro-welcome p {
   box-shadow: var(--container-shadow);
 }
 .portfolio-container .portfolio-item-container img {
-  width: 500px;
+  width: 400px;
+}
+.portfolio-container .portfolio-item-container a {
+  text-decoration: none;
+  color: #000000;
 }
 .portfolio-container .portfolio-item-container p {
   margin-bottom: 1em;
@@ -206,6 +230,23 @@ section.about-intro h1 {
 }
 .about-container td {
   max-width: 800px;
+}
+.about-container img {
+  width: 200px;
+  margin: 2em;
+}
+.about-container a {
+  text-decoration: none;
+}
+.about-container a :hover {
+  color: #068ddb;
+  text-decoration: underline;
+}
+.about-container a :visited, .about-container a :active {
+  text-decoration: none;
+}
+.about-container strong {
+  color: #f37a00;
 }
 
 section.contact-intro {

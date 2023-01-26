@@ -77,26 +77,13 @@
     transform: translateY(150px);
     opacity: 0;
     transition: 1s all ease;
-    z-index: 0; //bottom layer cheese
+    // z-index: 0; 
 }
 .reveal.active{
     transform: translateY(0);
     opacity: 1;
   }
 
-  .portfolio-item-container.varg, .portfolio-item-container.soundscape{
-    animation: forwards 1s ease 1 portItemFade;
-    @keyframes portItemFade {
-        from{
-            opacity: 0;
-            transform: translateY(150px);
-        }
-        to{
-            opacity: 1;
-            transform: translateY(0px) ;
-        }
-    }
-  }
 
 // SCROLL PROMPT 
 #scroll-link{
@@ -123,9 +110,6 @@
         font-weight: bold;
         margin: 1em;
         display: block;
-    }
-    .scroll-prompt.end{
-        display: none;
     }
     
     .line{

@@ -176,22 +176,45 @@
     padding: 2em 0;
     text-align: center;
   }
-
-
-  .portfolio-intro.cs{
-    background-color: #fff0d3;
-    margin-top: 1em;
+  .portfolio-intro-desc{
+    .btn {
+      background-color: rgb(255, 120, 30);
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      margin: 1em;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    .btn:hover {
+      background-color: rgb(146, 63, 7);
+    }
   }
 
   .portfolio-container{
     //width: 100%; //overflowsss
     margin: 0;
     background-color: #fff0d3;
+
+  .portfolio-walkthrough{
+    position: absolute;
+    text-align: left;
+    right: 30%;
+    top: 150%;
+    h1{
+      font-size: 30px;
+    }
+  }
+    
+  .portfolio-content{
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center ;
+    width: 50%;
+  }
+
 
     .portfolio-item-container{         
         background-color: rgba($color: #ececec3a, $alpha: 1);
@@ -200,7 +223,11 @@
         border-radius: 20px;
         box-shadow: var(--container-shadow);
         img{
-            width: 500px;
+            width: 400px;
+        }
+        a{
+          text-decoration: none;
+          color: #000000;
         }
         p{
             margin-bottom:1em ;
@@ -208,6 +235,7 @@
         
     }
   }
+
   
   .portfolio-item-container.twine{
     text-align: center;
@@ -254,6 +282,25 @@ section.about-intro{
     }
     td{
       max-width: 800px;
+    }
+    img{
+      width: 200px;
+      margin: 2em;
+    }
+    a{
+      text-decoration: none;
+      
+      :hover{
+        color: rgba($color: #068ddb, $alpha: 1.0);
+        text-decoration: underline;
+      }
+      :visited,:active{
+        text-decoration: none;
+      }
+    }
+    strong {
+      color: rgba($color: #f37a00, $alpha: 1.0);
+      // box-shadow: var(--container-shadow);
     }
   }
 
