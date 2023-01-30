@@ -338,7 +338,6 @@ section.contact-intro h1 {
 }
 .contact-items .item a :hover {
   color: #00a365;
-  width: 3em;
   transition: 0.5s;
 }
 .contact-items .item #hash {
