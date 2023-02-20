@@ -1,0 +1,208 @@
+.star-decor-1 {
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 10%;
+  top: 13%;
+  fill: #477EB0;
+  z-index: -2;
+}
+
+.star-decor-2 {
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  right: 13%;
+  top: 28%;
+  fill: #629DD2;
+  z-index: -2;
+}
+
+.star-decor-3 {
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 18%;
+  top: 98%;
+  fill: #629DD2;
+  z-index: -2;
+}
+
+.star-decor-4 {
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  right: 21%;
+  top: 129%;
+  fill: #629DD2;
+  z-index: -2;
+}
+
+.star-decor-5 {
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 18%;
+  top: 209%;
+  fill: #629DD2;
+  z-index: -2;
+}
+
+#active-page-dots.about {
+  transform: translate(-2%, 105%);
+}
+
+body.about {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 18.12%, #dbfae9 100%);
+}
+
+section.mission-sect .container {
+  background: linear-gradient(180deg, #FFFFFF 49.79%, #FFF2C2 70%);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.mission-sect .container .heading {
+  margin-top: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.mission-sect .container .heading h1 {
+  font-size: 36px;
+}
+section.mission-sect .container .heading svg {
+  margin-bottom: 2em;
+}
+section.mission-sect .container .desc-mission {
+  width: 50%;
+}
+section.mission-sect .container .desc-involved {
+  margin-top: 6em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-height: 300px;
+  background-color: #DAFFCD;
+  padding: 2em 0;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+section.mission-sect .container .desc-involved img {
+  width: 15%;
+}
+section.mission-sect .container .desc-involved p {
+  margin-left: 3em;
+  width: 40%;
+}
+
+.officer-sect {
+  position: relative;
+}
+.officer-sect .greendrop-shadow {
+  position: absolute;
+  z-index: 2;
+  height: 10px;
+  width: 100%;
+  box-shadow: 0px 6px 6px 1px rgba(0, 0, 0, 0.25);
+  background-color: #DAFFCD;
+}
+.officer-sect .underglow-blue {
+  z-index: 1;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(180deg, #C2EDFF 0%, rgba(255, 255, 255, 0.3647058824) 40%);
+}
+.officer-sect .container {
+  width: 100%;
+}
+.officer-sect .container .heading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.officer-sect .container .heading h1 {
+  font-size: 36px;
+}
+.officer-sect .container .heading svg path {
+  stroke: #0099BD;
+}
+.officer-sect .container .content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.officer-sect .container .content .card-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.officer-sect .container .content .card-container a {
+  color: #000000;
+  text-decoration: none;
+}
+.officer-sect .container .content .card-container a .card {
+  margin: 1em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  padding: 1em;
+  border-radius: 20px;
+}
+.officer-sect .container .content .card-container a .card h2, .officer-sect .container .content .card-container a .card h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.officer-sect .container .content .card-container a .card img {
+  width: 255px;
+  border-radius: 20px;
+}
+.officer-sect .container .content .card-container a .card:hover {
+  transition: 0.35s;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
+.officer-sect .container .content .card-container a .card:hover img {
+  transition: 0.25s;
+  width: 280px;
+  border-radius: 20px;
+}
+
+.bottom {
+  position: relative;
+}
+.bottom .overlay-fog {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 68.12%, #8BE3FF 100%);
+}
+
+section.bottom-trees {
+  position: absolute;
+  z-index: 2;
+  height: 200px;
+  width: 100%;
+  background-image: url("/static/imgs/geometric/fogtrees.svg");
+}
+
+.about-footer-trees {
+  margin-top: 200px;
+  height: auto;
+}/*# sourceMappingURL=about.css.map */

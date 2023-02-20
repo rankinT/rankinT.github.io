@@ -1,0 +1,136 @@
+// HOVER TRANSITIONS IN STYLES.SCSS FILE!!!!
+
+#active-page-triangle{
+    animation-name: triangle_spin;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    
+    @keyframes triangle_spin {
+        0% {
+            transform: translate(50%, -80%) rotate(0deg);
+            fill: #c4c4c4;
+        }
+        50% {
+            transform: translate(50%, -80%) rotate(360deg);
+            fill: #85a6f5;
+        }
+        100%{
+            transform: translate(50%, -80%) rotate(360deg);
+            fill: #c4c4c4;
+        }
+    }
+}
+
+
+#active-page-triangle.about{
+    animation-name: triangle_spin_about;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    @keyframes triangle_spin_about {
+        0% {
+            transform: translate(60%, -80%) rotate(0deg);
+            fill: #c4c4c4;
+        }
+        50% {
+            transform: translate(60%, -80%) rotate(360deg);
+            fill: #85a6f5;
+        }
+        100%{
+            transform: translate(60%, -80%) rotate(360deg);
+            fill: #c4c4c4;
+        }
+    }
+}
+
+#active-page-triangle.teams{
+    animation-name: triangle_spin_teams;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    @keyframes triangle_spin_teams {
+        0% {
+            transform: translate(70%, -80%) rotate(0deg);
+            fill: #c4c4c4;
+        }
+        50% {
+            transform: translate(70%, -80%) rotate(360deg);
+            fill: #85a6f5;
+        }
+        100%{
+            transform: translate(70%, -80%) rotate(360deg);
+            fill: #c4c4c4;
+        }
+    }
+}
+
+#notice-new{
+    animation-name: new_red_fade;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; 
+    @keyframes new_red_fade {
+        0%{
+            color: rgba($color: #f5a2a2, $alpha: 1.0);
+            transform: translate(0px 20px);
+        }
+        50%{
+            color: rgba($color: #D70000, $alpha: 1.0);
+            transform: translate(0px 20px);
+        }
+        100%{
+            color: rgba($color: #f1acac, $alpha: 1.0);
+            transform: translate(0px 20px);
+        }
+    }
+}
+
+#join-arrow{
+    animation-name: jumping_join;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    @keyframes jumping_join {
+        0%{
+            transform: translateY(-40px);
+        }
+        50%{
+            transform: translateY(-25px);
+        }
+        100%{
+            transform: translateY(-40px);
+        }
+    }
+}
+section.skyhero-sect .sun-decor{
+    animation-name: sun_spin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    @keyframes sun_spin {
+        0%{
+            transform: rotate(0deg) scale(1);
+        }
+        50%{
+            transform: rotate(-180deg) scale(1);
+        }
+        100%{
+            transform: rotate(-360deg) scale(1);
+        }
+    }
+}
+
+section.skyhero-sect .cloud-animate{
+    animation-name: cloud_wiggle;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    @keyframes cloud_wiggle {
+        0%{
+            transform: rotate(0deg);
+        }
+        25%{
+            transform: rotate(5deg);
+        }
+        75%{
+            transform: rotate(-5deg);
+        }
+    }
+}
